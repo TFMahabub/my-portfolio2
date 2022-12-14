@@ -8,7 +8,7 @@ const Nav = () => {
         <ul className='lg:space-x-8 space-x-4 tracking-wider font-medium'>
           <a href="#about" className='no-underline text-white hover:text-primary lg:text-lg'>About</a>
           <a href="#skills" className='no-underline text-white hover:text-primary lg:text-lg'>Skills</a>
-          <a href="#about" className='no-underline text-white hover:text-primary lg:text-lg'>Works</a>
+          <a href="#projects" className='no-underline text-white hover:text-primary lg:text-lg'>Projects</a>
           <a href="https://drive.google.com/file/d/18UXixFzEy3u1ffhuKCZ6ld51Bnc4m6Mc/view?usp=sharing" target='_blank' className='text-secondary bg-primary py-1 px-4 rounded-md mt-2 lg:text-lg lg:mt-0'>Get Resume</a>
         </ul>
       </nav>
