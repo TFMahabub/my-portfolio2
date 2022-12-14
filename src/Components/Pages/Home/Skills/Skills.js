@@ -12,13 +12,14 @@ import github from '../../../../Assets/slills/github.png'
 import node from '../../../../Assets/slills/node.png'
 import express from '../../../../Assets/slills/express.png'
 import mongoDB from '../../../../Assets/slills/mongoDB.png'
+import typeScript from '../../../../Assets/slills/typeScript.png'
 
 const Skills = () => {
   return (
     <section id='skills' className='bg-[#b2ffde]'>
       <div className='max-w-[910px] px-3 lg:px-0 mx-auto py-7 lg:py-[80px]'>
         <TitleText>Skills</TitleText>
-        <div className='mt-10 grid grid-cols-2 lg:grid-cols-4 gap-8'>
+        <div className='mt-10 grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12'>
           <div className='flex flex-col justify-end items-center'>
             <img className='w-11' src={html} alt="" />
             <p className='text-lg font-medium text-secondary'>HTML5</p>
@@ -66,6 +67,10 @@ const Skills = () => {
           <div className='flex flex-col justify-end items-center'>
             <img className='w-7' src={mongoDB} alt="" />
             <p className='text-lg font-medium text-secondary'>MongoDB</p>
+          </div>
+          <div className='flex flex-col justify-end items-center'>
+            <img className='w-12' src={typeScript} alt="" />
+            <p className='text-lg font-medium text-secondary'>TypeScript</p>
           </div>
         </div>
       </div>
