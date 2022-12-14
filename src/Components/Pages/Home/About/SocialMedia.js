@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillLinkedin, AiFillGithub, AiOutlineMail } from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub, AiOutlineInstagram, AiFillFacebook } from "react-icons/ai";
 
 const SocialMedia = () => {
   return (
@@ -12,8 +12,11 @@ const SocialMedia = () => {
         <a href="https://github.com/TFMahabub" target='_blank'>
         <AiFillGithub className='text-4xl'/>
         </a>
-        <a href="rjmahabub543@gmail.com" target='_blank'>
-          <AiOutlineMail className='text-4xl'/>
+        <a href="https://www.facebook.com/profile.php?id=100007620996842" target='_blank'>
+          <AiFillFacebook className='text-4xl'/>
+        </a>
+        <a href="https://www.instagram.com/tf_mahabub/" target='_blank'>
+          <AiOutlineInstagram className='text-4xl'/>
         </a>
       </div>
     </div>

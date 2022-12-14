@@ -10,7 +10,7 @@ const About = () => {
         <TitleText>About</TitleText>
         <div className='lg:flex justify-between pt-2 lg:pt-4 lg:space-x-7'>
         <article className='lg:w-1/2'>
-          <p className='text-md text-secondary tracking-wider'>
+          <p className='text-lg text-secondary tracking-wide'>
           Mahabub is a Front End web developer. I love to do coding. My favorite thing about coding is always
           trying to learn something new, explore new logic and apply this to web projects. I will always be comfortable
           working with a team.
