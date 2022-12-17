@@ -21,7 +21,7 @@ const Skills = () => {
     <section id='skills' className='bg-primary'>
       <div className='max-w-[910px] px-3 lg:px-0 mx-auto py-7 lg:py-[80px]'>
         <TitleText>Skills</TitleText>
-        <div className='mt-16 grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12'>
+        <div className='mt-14 grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12'>
           <div className='flex flex-col justify-end items-center'>
             <img className='w-11' src={html} alt="" />
             <p className='text-xl font-medium text-secondary'>HTML5</p>

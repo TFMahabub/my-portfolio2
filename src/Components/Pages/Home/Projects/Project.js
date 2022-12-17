@@ -38,7 +38,7 @@ const Project = () => {
     <section id='projects' className=''>
       <div className='max-w-[910px] px-3 lg:px-0 mx-auto py-7 lg:py-[80px]'>
         <TitleText>Projects</TitleText>
-        <div className='mt-16 grid grid-cols-1 lg:grid-cols-2 lg:gap-32'>
+        <div className='mt-16 grid grid-cols-1 lg:grid-cols-2 gap-[65px] lg:gap-32'>
 
           {
             projects?.map(project=><SingleProject

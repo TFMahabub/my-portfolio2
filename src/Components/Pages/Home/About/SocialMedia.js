@@ -1,4 +1,5 @@
 import React from 'react';
+import { GrMail, GrTwitter } from "react-icons/gr";
 import { AiFillLinkedin, AiFillGithub, AiOutlineInstagram, AiFillFacebook } from "react-icons/ai";
 
 const SocialMedia = () => {
@@ -17,6 +18,12 @@ const SocialMedia = () => {
         </a>
         <a href="https://www.instagram.com/tf_mahabub/" target='_blank'>
           <AiOutlineInstagram className='text-4xl'/>
+        </a>
+        <a href="https://twitter.com/tf_mahabubb" target='_blank'>
+          <GrTwitter className='text-[32px]'/>
+        </a>
+        <a href="mailto://rjmahabub543@gmail.com" target='_blank'>
+          <GrMail className='text-4xl'/>
         </a>
       </div>
     </div>
