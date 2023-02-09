@@ -4,6 +4,7 @@ import html from '../../../../Assets/slills/html.png'
 import css from '../../../../Assets/slills/css.png'
 import javaScript from '../../../../Assets/slills/javaScript.png'
 import react from '../../../../Assets/slills/react.png'
+import nextJs from '../../../../Assets/slills/Next.png'
 import redux from '../../../../Assets/slills/redux.png'
 import tailwind from '../../../../Assets/slills/tailwind.png'
 import bootstrap from '../../../../Assets/slills/Bootstrap.png'
@@ -17,6 +18,7 @@ import mongoDB from '../../../../Assets/slills/mongoDB.png'
 import typeScript from '../../../../Assets/slills/typeScript.png'
 
 const Skills = () => {
+  
   return (
     <section id='skills' className='bg-primary'>
       <div className='max-w-[910px] px-3 lg:px-0 mx-auto py-7 lg:py-[80px]'>
@@ -39,8 +41,16 @@ const Skills = () => {
             <p className='text-xl font-medium text-secondary'>React.js</p>
           </div>
           <div className='flex flex-col justify-end items-center'>
+            <img className='w-[115px]' src={nextJs} alt="" />
+            <p className='text-xl font-medium text-center text-secondary'>Next.js</p>
+          </div>
+          <div className='flex flex-col justify-end items-center'>
             <img className='w-[52px]' src={redux} alt="" />
             <p className='text-xl font-medium text-secondary'>Redux</p>
+          </div>
+          <div className='flex flex-col justify-end items-center'>
+            <img className='w-12' src={typeScript} alt="" />
+            <p className='text-xl font-medium text-secondary'>TypeScript</p>
           </div>
           <div className='flex flex-col justify-end items-center'>
             <img className='w-16' src={tailwind} alt="" />
@@ -78,10 +88,7 @@ const Skills = () => {
             <img className='w-7' src={mongoDB} alt="" />
             <p className='text-xl font-medium text-secondary'>MongoDB</p>
           </div>
-          <div className='flex flex-col justify-end items-center'>
-            <img className='w-12' src={typeScript} alt="" />
-            <p className='text-xl font-medium text-secondary'>TypeScript</p>
-          </div>
+          
         </div>
       </div>
         
