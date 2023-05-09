@@ -1,12 +1,25 @@
 import React from 'react';
+import ComingSoon from '../../../../Assets/Projects/COMING SOON.jpg';
+import DailyDealCars from '../../../../Assets/Projects/Daily-Deal-Cars.jpg';
+import MakeMyTrip from '../../../../Assets/Projects/Make-My-Trip.jpg';
+import SpicyHut from '../../../../Assets/Projects/spicy-hut.jpg';
 import TitleText from '../../../ReuseableComponents/TitleText';
-import ComingSoon from '../../../../Assets/Projects/COMING SOON.jpg'
-import DailyDealCars from '../../../../Assets/Projects/Daily-Deal-Cars.jpg'
-import MakeMyTrip from '../../../../Assets/Projects/Make-My-Trip.jpg'
 import SingleProject from './SingleProject';
 
 const Project = () => {
   const projects = [
+    { 
+      id: 1,
+      name: 'Spicy-Hut',
+      img: SpicyHut,
+      title: 'A Japanese Resturent web app',
+      toolkit: 'Tailwind | Nex.js | Redux | Express | mongoDB',
+      links: {
+        liveSite: "https://spicy-hut.vercel.app/",
+        clientSiteGitRepo: "https://github.com/TFMahabub/spicy-hut",
+        serverSiteGitRepo: "https://github.com/TFMahabub/spicy-hut-server",
+      }
+    },
     { 
       id: 1,
       name: 'Daily-Deal-Cars',

@@ -1,21 +1,21 @@
 import React from 'react';
+import css from '../../../../Assets/slills/css.png';
+import express from '../../../../Assets/slills/express.png';
+import firebase from '../../../../Assets/slills/firebase.png';
+import git from '../../../../Assets/slills/git.png';
+import github from '../../../../Assets/slills/github.png';
+import html from '../../../../Assets/slills/html.png';
+import javaScript from '../../../../Assets/slills/javaScript.png';
+import materialUI from '../../../../Assets/slills/material UI.png';
+import mongoDB from '../../../../Assets/slills/mongoDB.png';
+import nextJsIcon from '../../../../Assets/slills/next.js(favicon).png';
+import node from '../../../../Assets/slills/node.png';
+import react from '../../../../Assets/slills/react.png';
+import redux from '../../../../Assets/slills/redux.png';
+import sass from '../../../../Assets/slills/sass.png';
+import tailwind from '../../../../Assets/slills/tailwind.png';
+import typeScript from '../../../../Assets/slills/typeScript.png';
 import TitleText from '../../../ReuseableComponents/TitleText';
-import html from '../../../../Assets/slills/html.png'
-import css from '../../../../Assets/slills/css.png'
-import javaScript from '../../../../Assets/slills/javaScript.png'
-import react from '../../../../Assets/slills/react.png'
-import nextJs from '../../../../Assets/slills/Next.png'
-import redux from '../../../../Assets/slills/redux.png'
-import tailwind from '../../../../Assets/slills/tailwind.png'
-import bootstrap from '../../../../Assets/slills/Bootstrap.png'
-import materialUI from '../../../../Assets/slills/material UI.png'
-import git from '../../../../Assets/slills/git.png'
-import github from '../../../../Assets/slills/github.png'
-import firebase from '../../../../Assets/slills/firebase.png'
-import node from '../../../../Assets/slills/node.png'
-import express from '../../../../Assets/slills/express.png'
-import mongoDB from '../../../../Assets/slills/mongoDB.png'
-import typeScript from '../../../../Assets/slills/typeScript.png'
 
 const Skills = () => {
   
@@ -41,10 +41,6 @@ const Skills = () => {
             <p className='text-xl font-medium text-secondary'>React.js</p>
           </div>
           <div className='flex flex-col justify-end items-center'>
-            <img className='w-[115px]' src={nextJs} alt="" />
-            <p className='text-xl font-medium text-center text-secondary'>Next.js</p>
-          </div>
-          <div className='flex flex-col justify-end items-center'>
             <img className='w-[52px]' src={redux} alt="" />
             <p className='text-xl font-medium text-secondary'>Redux</p>
           </div>
@@ -53,12 +49,16 @@ const Skills = () => {
             <p className='text-xl font-medium text-secondary'>TypeScript</p>
           </div>
           <div className='flex flex-col justify-end items-center'>
-            <img className='w-16' src={tailwind} alt="" />
+            <img className='w-[50px]' src={nextJsIcon} alt="" />
+            <p className='text-xl font-medium text-center text-secondary'>Next.js</p>
+          </div>
+          <div className='flex flex-col justify-end items-center'>
+            <img className='w-[66px]' src={tailwind} alt="" />
             <p className='text-xl font-medium text-secondary'>Tailwind</p>
           </div>
           <div className='flex flex-col justify-end items-center'>
-            <img className='w-14' src={bootstrap} alt="" />
-            <p className='text-xl font-medium text-secondary'>Bootstrap3</p>
+            <img className='w-[70px]' src={sass} alt="" />
+            <p className='text-xl font-medium text-secondary'>Sass</p>
           </div>
           <div className='flex flex-col justify-end items-center'>
             <img className='w-14' src={materialUI} alt="" />

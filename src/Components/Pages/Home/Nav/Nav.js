@@ -2,7 +2,7 @@ import React from 'react';
 
 const Nav = () => {
   return (
-    <header className='bg-secondary border-b-4 border-third fixed w-full top-0'>
+    <header className='bg-secondary border-b-4 border-third fixed w-full top-0 z-10'>
       <nav className='max-w-[910px] py-3 px-3 lg:px-0 lg:py-5 mx-auto lg:flex items-center justify-between text-center'>
         <h2 className='text-white text-2xl font font-semibold tracking-wider'>Mahabub Alam</h2>
         <ul className='mt-2 lg:mt-0 lg:space-x-8 space-x-4 tracking-wider font-medium'>

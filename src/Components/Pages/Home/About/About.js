@@ -1,7 +1,6 @@
 import React from 'react';
+import img from '../../../../Assets/professional2.jpg';
 import TitleText from '../../../ReuseableComponents/TitleText';
-import img from '../../../../Assets/About Image.jpg'
-import AboutComingSoon from '../../../../Assets/About-me-Coming-Soon.jpg'
 import SocialMedia from './SocialMedia';
 
 const About = () => {
