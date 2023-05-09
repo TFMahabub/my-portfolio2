@@ -21,22 +21,18 @@ const Project = () => {
       }
     },
     { 
-      id: 1,
+      id: 2,
       name: 'Daily-Deal-Cars',
       img: DailyDealCars,
       title: 'Old car reselling website',
       toolkit: 'Tailwind | React | Express | mongoDB'
     },
     {
-      id: 2,
+      id: 3,
       name: 'Make-My-Trip',
       img: MakeMyTrip,
       title: 'Tour Guide website',
       toolkit: 'Tailwind | React | Express | mongoDB'
-    },
-    {
-      id: 3,
-      img: ComingSoon,
     },
     {
       id: 4,
@@ -44,6 +40,10 @@ const Project = () => {
     },
     {
       id: 5,
+      img: ComingSoon,
+    },
+    {
+      id: 6,
       img: ComingSoon,
     },
   ]

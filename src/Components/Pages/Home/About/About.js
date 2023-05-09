@@ -5,7 +5,7 @@ import SocialMedia from './SocialMedia';
 
 const About = () => {
   return (
-    <section id='about' className=''>
+    <section id='about'>
       <div className='max-w-[910px] px-3 lg:px-0 mx-auto py-7 lg:py-[80px]'>
         <TitleText>About</TitleText>
         <div className='mt-8 lg:flex justify-between pt-2 lg:pt-4 lg:space-x-7'>

@@ -1,0 +1,6 @@
+.scroll-line {
+  background: #ff4e00;
+  height: 6px;
+  position: fixed;
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
