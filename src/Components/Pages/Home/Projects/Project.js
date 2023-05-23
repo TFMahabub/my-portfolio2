@@ -6,14 +6,14 @@ import SpicyHut from '../../../../Assets/Projects/spicy-hut.jpg';
 import TitleText from '../../../ReuseableComponents/TitleText';
 import SingleProject from './SingleProject';
 
-const Project = () => {
+const Project = ({setModalControl}) => {
   const projects = [
     { 
       id: 1,
       name: 'Spicy-Hut',
       img: SpicyHut,
-      title: 'A Japanese Resturent web app',
-      toolkit: 'Tailwind | Nex.js | Redux | Express | mongoDB',
+      title: 'A Japanese restaurant web app',
+      toolkit: 'Tailwind | Next.js | Redux | Express | mongoDB',
       links: {
         liveSite: "https://spicy-hut.vercel.app/",
         clientSiteGitRepo: "https://github.com/TFMahabub/spicy-hut",
@@ -48,7 +48,7 @@ const Project = () => {
     },
   ]
   return (
-    <section id='projects' className=''>
+    <section id='projects'>
       <div className='max-w-[910px] px-3 lg:px-0 mx-auto py-7 lg:py-[80px]'>
         <TitleText>Projects</TitleText>
         <div className='mt-16 grid grid-cols-1 lg:grid-cols-2 gap-[65px] lg:gap-32'>
@@ -56,6 +56,7 @@ const Project = () => {
           {
             projects?.map(project=><SingleProject
               key={project?.id}
+              setModalControl={setModalControl}
               project={project}
             />)
           }

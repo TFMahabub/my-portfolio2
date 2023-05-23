@@ -1,10 +1,15 @@
 import React from 'react';
 
-const SingleProject = ({project}) => {
+const SingleProject = ({project, setModalControl}) => {
   const {img, name, title, toolkit, links} = project;
   return (
-    <div className=''>
-      <img className='border border-primary duration-300 hover:scale-105' src={img} alt="" />
+    <div 
+    className='cursor-pointer'>
+      <img 
+      onClick={()=>{
+        if(name){setModalControl(name)}
+      }}
+       className='border border-primary duration-300 hover:scale-105' src={img} alt="" />
       <h4 className='mt-3 text-xl text-secondary text-center'>{name}</h4>
       <h5 className='text-center text-md'>{title}</h5>
       <h5 className='text-center text-sm'>{toolkit}</h5>
