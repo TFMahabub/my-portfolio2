@@ -11,7 +11,7 @@ const WebsiteFullViewModal = ({children, setModalControl}) => {
                 {/* <RiCloseFill
                 onClick={()=>setModalControl("")}
                 className='text-[28px] rounded-md p-[2px] font-extralight text-primary border border-primary cursor-pointer absolute z-20 right-2 top-2 hover:bg-aide-gray duration-300 bg-white' /> */}
-                <div className="overflow-y-auto max-h-[82vh] modal-scrollbar border border-third">
+                <div className="overflow-y-auto h-[82vh] modal-scrollbar modal-scrollbar-mozila border border-third bg-white">
                     <div className='bg-white w-full h-full'>
                     {children}
                     </div>

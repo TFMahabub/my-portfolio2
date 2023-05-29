@@ -5,10 +5,20 @@
   --color-white: #fff;
 }
 
+/* for firefox browser */
+html {
+  scrollbar-color: #ff4e00 #e2e2e2;
+  scrollbar-width: thin;
+}
+.modal-scrollbar-mozila {
+  scrollbar-color: #ff4e00 #e2e2e2;
+  scrollbar-width: thin;
+}
+
+/* for chrom and safari */
 body::-webkit-scrollbar {
   width: 0.4em;
 }
-
 body::-webkit-scrollbar-thumb {
   background-color: var(--color-third);
   outline: none;
@@ -16,7 +26,6 @@ body::-webkit-scrollbar-thumb {
 .modal-scrollbar::-webkit-scrollbar {
   width: 0.3em;
 }
-
 .modal-scrollbar::-webkit-scrollbar-thumb {
   background-color: var(--color-third);
   outline: none;

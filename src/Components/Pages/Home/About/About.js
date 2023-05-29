@@ -1,6 +1,6 @@
 import React from 'react';
-import img from '../../../../Assets/professional2.jpg';
 import TitleText from '../../../ReuseableComponents/TitleText';
+import CustomSwiperImage from './CustomSwiperImage';
 import SocialMedia from './SocialMedia';
 
 const About = () => {
@@ -23,8 +23,9 @@ const About = () => {
             <br /> Mahabub Alam loves challenges and believes in lifelong learning.
             </p>
           </article>
-        <div className='lg:w-1/2 mt-8 lg:mt-0'>
-          <img src={img} alt="" />
+        <div className='lg:w-1/2 mt-8 lg:mt-0 border border-[#dcdcdc]'>
+          {/* <img src={img} alt="" /> */}
+          <CustomSwiperImage/>
         </div>
         </div>
         <SocialMedia></SocialMedia>
