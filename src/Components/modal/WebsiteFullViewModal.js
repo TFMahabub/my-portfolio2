@@ -1,4 +1,5 @@
 import React from 'react';
+// import LoadingSpinner from '../ReuseableComponents/LoadingSpinner';
 
 const WebsiteFullViewModal = ({children, setModalControl}) => {
     return (
@@ -12,8 +13,15 @@ const WebsiteFullViewModal = ({children, setModalControl}) => {
                 onClick={()=>setModalControl("")}
                 className='text-[28px] rounded-md p-[2px] font-extralight text-primary border border-primary cursor-pointer absolute z-20 right-2 top-2 hover:bg-aide-gray duration-300 bg-white' /> */}
                 <div className="overflow-y-auto h-[82vh] modal-scrollbar modal-scrollbar-mozila border border-third bg-white">
-                    <div className='bg-white w-full h-full'>
-                    {children}
+                    <div className='bg-white w-full h-full relative'>
+                        {/* <LoadingSpinner/> */}
+                        {children}
+                        <div
+                        className='h-full w-full flex items-center justify-center'
+                        >
+                        <div class="w-12 h-12 rounded-full animate-spin
+                        border-4 border-solid border-third border-t-white z-0"></div>
+                        </div>
                     </div>
                 </div>
             </div>

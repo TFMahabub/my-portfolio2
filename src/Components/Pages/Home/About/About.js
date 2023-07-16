@@ -23,7 +23,7 @@ const About = () => {
             <br /> Mahabub Alam loves challenges and believes in lifelong learning.
             </p>
           </article>
-        <div className='lg:w-1/2 mt-8 lg:mt-0 border border-[#dcdcdc]'>
+        <div className='lg:w-1/2 mt-8 lg:mt-0'>
           {/* <img src={img} alt="" /> */}
           <CustomSwiperImage/>
         </div>

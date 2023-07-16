@@ -24,8 +24,8 @@ const Nav = () => {
             <a href="#about" className='no-underline text-white hover:text-primary duration-150 lg:text-lg'>About</a>
             <a href="#skills" className='no-underline text-white hover:text-primary duration-150 lg:text-lg'>Skills</a>
             <a href="#projects" className='no-underline text-white hover:text-primary duration-150 lg:text-lg'>Projects</a>
-            <button>
-              <a href="https://drive.google.com/file/d/1KOz0Y_5yTVJWTSoo1gdvz7IcNSBpTlSG/view?usp=sharing" target='_blank' className='text-secondary bg-primary py-1 px-4 rounded-md mt-2 lg:text-lg lg:mt-0'>Get Resume</a>
+            <button className=' mt-2 md:mt-0'>
+              <a href="https://drive.google.com/file/d/1hdg3nZYn5RvpDq5hrrFB-l5jMMQDFCUr/view?usp=sharing" target='_blank' className='text-secondary bg-primary py-1 px-4 rounded-md lg:text-lg'>Get Resume</a>
             </button>
           </ul>
         </nav>

@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 // full-image from assates-
 import DailyDealCars from '../../Assets/Projects/Daily-Deal-Cars-full-page-low-regulation.jpg';
 import makeMyTrip from '../../Assets/Projects/Make-My-Trip-full-page-low-regulation.jpg';
+import ecoNotes from '../../Assets/Projects/eco-notes.png';
+import replicEcommerce from '../../Assets/Projects/replic-ecommerce.png';
 import spicyHut from '../../Assets/Projects/spicy-hut-full-page-low-regulation.jpg';
 
 const ModalComponents = ({modalControl}) => {
@@ -13,6 +15,12 @@ const ModalComponents = ({modalControl}) => {
 
 
     useEffect(()=>{
+        if(modalControl==="Eco-Notes"){
+            setRederedImageLink(ecoNotes)
+        }
+        if(modalControl==="Replic-Ecommerce"){
+            setRederedImageLink(replicEcommerce)
+        }
         if(modalControl==="Spicy-Hut"){
             setRederedImageLink(spicyHut)
         }
@@ -24,7 +32,7 @@ const ModalComponents = ({modalControl}) => {
         }
     },[modalControl])
     return (
-        <img className='w-full' src={rederedImageLink} alt="" />
+        <img className='w-full absolute z-10' src={rederedImageLink} alt="" />
     );
 };
 
