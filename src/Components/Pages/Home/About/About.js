@@ -1,7 +1,7 @@
 import React from 'react';
 import TitleText from '../../../ReuseableComponents/TitleText';
-import CustomSwiperImage from './CustomSwiperImage';
 import SocialMedia from './SocialMedia';
+import SwiperImage from './SwiperImage';
 
 const About = () => {
   return (
@@ -25,7 +25,7 @@ const About = () => {
           </article>
         <div className='lg:w-1/2 mt-8 lg:mt-0'>
           {/* <img src={img} alt="" /> */}
-          <CustomSwiperImage/>
+          <SwiperImage/>
         </div>
         </div>
         <SocialMedia></SocialMedia>
