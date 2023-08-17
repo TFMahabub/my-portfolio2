@@ -2,6 +2,7 @@ import React from 'react';
 import ComingSoon from '../../../../Assets/Projects/COMING SOON.jpg';
 import DailyDealCars from '../../../../Assets/Projects/Daily-Deal-Cars.jpg';
 import MakeMyTrip from '../../../../Assets/Projects/Make-My-Trip.jpg';
+import EcoNotesAdminPanel from '../../../../Assets/Projects/eco-notes-admin-panel.png';
 import EcoNotes from '../../../../Assets/Projects/eco-notes.png';
 import ReplicEcommerce from '../../../../Assets/Projects/replic-ecommerce.png';
 import SpicyHut from '../../../../Assets/Projects/spicy-hut.jpg';
@@ -24,6 +25,18 @@ const Project = ({setModalControl}) => {
     },
     { 
       id: 2,
+      name: 'Eco-Notes-Admin-Panel',
+      img: EcoNotesAdminPanel,
+      title: 'A small Admin Panel CLI',
+      toolkit: 'Tailwind | React.js | Redux | Express | mongoDB',
+      links: {
+        liveSite: "https://eco-notes-admin-panel.netlify.app/",
+        clientSiteGitRepo: "https://github.com/TFMahabub/eco-notes-admin-cli",
+        serverSiteGitRepo: "https://github.com/TFMahabub/eco-notes-server",
+      }
+    },
+    { 
+      id: 3,
       name: 'Replic-Ecommerce',
       img: ReplicEcommerce,
       title: 'A small e-commerce application ',
@@ -35,7 +48,7 @@ const Project = ({setModalControl}) => {
       }
     },
     { 
-      id: 3,
+      id: 4,
       name: 'Spicy-Hut',
       img: SpicyHut,
       title: 'A Japanese restaurant web app',
@@ -47,22 +60,18 @@ const Project = ({setModalControl}) => {
       }
     },
     { 
-      id: 4,
+      id: 5,
       name: 'Daily-Deal-Cars',
       img: DailyDealCars,
       title: 'Old car reselling website',
       toolkit: 'Tailwind | React | Express | mongoDB'
     },
     {
-      id: 5,
+      id: 6,
       name: 'Make-My-Trip',
       img: MakeMyTrip,
       title: 'Tour Guide website',
       toolkit: 'Tailwind | React | Express | mongoDB'
-    },
-    {
-      id: 6,
-      img: ComingSoon,
     },
     {
       id: 7,
@@ -70,6 +79,10 @@ const Project = ({setModalControl}) => {
     },
     {
       id: 8,
+      img: ComingSoon,
+    },
+    {
+      id: 9,
       img: ComingSoon,
     },
   ]
