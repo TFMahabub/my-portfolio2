@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import ModalComponents from '../../modal/ModalComponents';
 import WebsiteFullViewModal from '../../modal/WebsiteFullViewModal';
 import About from './About/About';
-import SocialMedia from './About/SocialMedia';
 import Banner from './Banner/Banner';
 import Nav from './Nav/Nav';
 import Project from './Projects/Project';
@@ -27,7 +26,6 @@ const Home = () => {
               </WebsiteFullViewModal>
         </div>
       )}
-      <SocialMedia />
     </section>
   );
 };
