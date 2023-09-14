@@ -4,6 +4,7 @@ import DailyDealCars from '../../Assets/Projects/Daily-Deal-Cars-full-page-low-r
 import makeMyTrip from '../../Assets/Projects/Make-My-Trip-full-page-low-regulation.jpg';
 import EcoNotesAdminPanel from '../../Assets/Projects/eco-notes-admin-panel.png';
 import ecoNotes from '../../Assets/Projects/eco-notes.png';
+import ImageEditApp from '../../Assets/Projects/image-edit-app.jpg';
 import replicEcommerce from '../../Assets/Projects/replic-ecommerce.png';
 import spicyHut from '../../Assets/Projects/spicy-hut-full-page-low-regulation.jpg';
 
@@ -30,9 +31,12 @@ const ModalComponents = ({modalControl}) => {
         if(modalControl==="Make-My-Trip"){
             setRederedImageLink(makeMyTrip)
         }
+        if(modalControl==="Image-Edit-App"){
+            setRederedImageLink(ImageEditApp)
+        }
     },[modalControl])
     return (
-        <img className='w-full absolute z-10' src={rederedImageLink} alt="" />
+        <img className='absolute z-10 w-full' src={rederedImageLink} alt="" />
     );
 };
 

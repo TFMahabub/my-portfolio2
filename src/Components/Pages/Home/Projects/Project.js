@@ -4,6 +4,7 @@ import DailyDealCars from '../../../../Assets/Projects/Daily-Deal-Cars.jpg';
 import MakeMyTrip from '../../../../Assets/Projects/Make-My-Trip.jpg';
 import EcoNotesAdminPanel from '../../../../Assets/Projects/eco-notes-admin-panel.png';
 import EcoNotes from '../../../../Assets/Projects/eco-notes.png';
+import ImageEditApp from '../../../../Assets/Projects/image-edit-app.jpg';
 import ReplicEcommerce from '../../../../Assets/Projects/replic-ecommerce.png';
 import SpicyHut from '../../../../Assets/Projects/spicy-hut.jpg';
 import TitleText from '../../../ReuseableComponents/TitleText';
@@ -61,21 +62,28 @@ const Project = ({setModalControl}) => {
     },
     { 
       id: 5,
+      name: 'Image-Edit-App',
+      img: ImageEditApp,
+      title: 'A simple image edit app',
+      toolkit: 'Tailwind | React.js',
+      links: {
+        liveSite: "https://image-edite-app.netlify.app/",
+        clientSiteGitRepo: "https://github.com/TFMahabub/image-editing-app",
+      }
+    },
+    { 
+      id: 6,
       name: 'Daily-Deal-Cars',
       img: DailyDealCars,
       title: 'Old car reselling website',
       toolkit: 'Tailwind | React | Express | mongoDB'
     },
     {
-      id: 6,
+      id: 7,
       name: 'Make-My-Trip',
       img: MakeMyTrip,
       title: 'Tour Guide website',
       toolkit: 'Tailwind | React | Express | mongoDB'
-    },
-    {
-      id: 7,
-      img: ComingSoon,
     },
     {
       id: 8,
@@ -83,6 +91,10 @@ const Project = ({setModalControl}) => {
     },
     {
       id: 9,
+      img: ComingSoon,
+    },
+    {
+      id: 10,
       img: ComingSoon,
     },
   ]
